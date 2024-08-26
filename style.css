@@ -1,0 +1,117 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1a; /* Cor escura */
+  color: white; /* Cor branca */
+  line-height: 1.6;
+align-items: center;
+text-align: center;
+font-size:x-large;
+
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333; /* Cor escura */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #444; /* Cor escura */
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: white /* Cor branca */
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ff3737; /* Cor vermelha */
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: black; /* Cor clara */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30;
+  margin-bottom: 10px;
+  color: #ff3737; /* Cor vermelha */
+  font-family: 'Creepster', cursive;
+  ;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white; /* Cor branca */
+}
+
+p {
+  margin-bottom: 20px;
+  color: white; /* Cor branca */
+}
+
+img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+section h1 ul li a img  {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+
+
+iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
+}
+#redes-sociais{
+  
+}
+.row{
+  display: flex;
+
+}
